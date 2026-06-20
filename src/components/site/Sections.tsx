@@ -1058,12 +1058,6 @@ export function FinalCTA() {
                     placeholder={t.cta.fMsg}
                   />
                   <div className="space-y-3 md:col-span-2">
-                    <p className="text-xs text-muted-foreground">
-                      {t.cta.fConfigNote}{" "}
-                      <a href="/admin" className="font-semibold text-[oklch(0.55_0.20_250)]">
-                        /admin
-                      </a>
-                    </p>
                     {status && (
                       <div className="rounded-xl border border-border bg-secondary/60 px-4 py-3 text-sm text-foreground/75">
                         {status}
